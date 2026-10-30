@@ -6,3 +6,6 @@ node_modules/
 hse-sicherung-*.json
 hse-vor-import-*.json
 .local/
+
+# Private deployment package (recipient and deployment instructions)
+google-script/

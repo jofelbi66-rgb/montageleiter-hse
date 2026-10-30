@@ -18,7 +18,7 @@ Mit Node.js: `npm start`, dann http://127.0.0.1:4173 öffnen. Keine Paketinstall
 
 ## Daten und Grenzen
 
-Speicherung in localStorage unter `montageleitung-hse-v1`. Kein Login, kein Backend, keine automatische Synchronisation, keine KI und keine garantierte Offlineinstallation. Browserdaten sind weder verschlüsselt noch automatisch gesichert. Regelmäßig über „Datensicherung“ exportieren. Auf einem anderen Gerät oder unter einer anderen Domain sind Daten erst nach Import verfügbar. Import ersetzt den lokalen Bestand nach Bestätigung; der alte Stand wird zuvor als Datei angeboten. Die Größe des Browserspeichers ist begrenzt, vor allem bei vielen Unterschriften.
+Speicherung in localStorage unter `montageleitung-hse-v1`. Kein Login, keine automatische Synchronisation, keine KI und keine garantierte Offlineinstallation. Optionaler Mailversand über ein separates Google Script; Das Google-Script-Einrichtungspaket wird separat und nicht im öffentlichen Repository bereitgestellt. Browserdaten sind weder verschlüsselt noch automatisch gesichert. Regelmäßig über „Datensicherung“ exportieren. Auf einem anderen Gerät oder unter einer anderen Domain sind Daten erst nach Import verfügbar. Import ersetzt den lokalen Bestand nach Bestätigung; der alte Stand wird zuvor als Datei angeboten. Die Größe des Browserspeichers ist begrenzt, vor allem bei vielen Unterschriften.
 
 Echte Personendaten nur nach betrieblicher Freigabe und mit geeignetem Geräte-/Zugriffsschutz verwenden. Keine Datenexporte ins Repository einchecken. Das Veröffentlichen des App-Codes veröffentlicht nicht den lokalen Browserbestand. Für gemeinschaftliche Nutzung ist ein gesondertes Backend mit Anmeldung und Berechtigungen erforderlich.
 
@@ -30,9 +30,10 @@ Repository → Settings → Pages → Deploy from a branch → main → / (root)
 
 ## Prüfen
 
-`npm test`: Sicherungsformat, Bestätigungsrücksetzung, Status, LMRA-Konsistenz und ungültige Imports.
+`npm test`: Sicherungsformat, Bestätigungsrücksetzung, Status, LMRA-Konsistenz, ungültige Imports und Versandlogik mit simulierten Google-Diensten. Keine echte Testmail.
 
 Manuelle Abnahme: Übergabe speichern und neu laden; beide Unterschriften erfassen; Checkliste ändern und Rücksetzung kontrollieren; Maßnahme erledigen; Toolbox-Teilnahme erfassen; LMRA mit Nein nicht positiv abschließen; Sicherung exportieren/importieren; PDF-Druckbild und mobile Bedienung prüfen. Daten und Unterschriften ausschließlich mit fiktiven Testangaben prüfen.
 
 Die Emergent-Originalapp wird durch diesen Code nicht verändert. Ein späterer Originaldatenimport erfordert eine separate Abbildung auf dieses Datenformat.
+
 
