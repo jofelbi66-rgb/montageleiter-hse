@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+hse-sicherung-*.json
+hse-vor-import-*.json
+.local/
