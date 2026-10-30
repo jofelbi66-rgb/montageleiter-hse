@@ -1,6 +1,6 @@
 # HSE vor Ort – Montageleitung
 
-Eigenständige Neuimplementierung anhand der sichtbaren Montageleiter-App. Kein exportierter Emergent-Code, keine Verbindung zu Emergent, kein Abo und keine externen Laufzeitbibliotheken. Enthält keine Originaldaten und kein kopiertes Firmenlogo.
+Eigenständige Neuimplementierung anhand der sichtbaren Montageleiter-App. Kein exportierter Emergent-Code, keine Verbindung zu Emergent, kein Abo und keine externen Laufzeitbibliotheken. Enthält keine Originaldaten. Das Wimmer-Logo ist auf Wunsch des Nutzers eingebunden; Quelle und Aufbereitung siehe assets/README.md.
 
 ## Start
 
@@ -35,3 +35,4 @@ Repository → Settings → Pages → Deploy from a branch → main → / (root)
 Manuelle Abnahme: Übergabe speichern und neu laden; beide Unterschriften erfassen; Checkliste ändern und Rücksetzung kontrollieren; Maßnahme erledigen; Toolbox-Teilnahme erfassen; LMRA mit Nein nicht positiv abschließen; Sicherung exportieren/importieren; PDF-Druckbild und mobile Bedienung prüfen. Daten und Unterschriften ausschließlich mit fiktiven Testangaben prüfen.
 
 Die Emergent-Originalapp wird durch diesen Code nicht verändert. Ein späterer Originaldatenimport erfordert eine separate Abbildung auf dieses Datenformat.
+
