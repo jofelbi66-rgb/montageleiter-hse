@@ -1,4 +1,4 @@
-import {MAIL_ENDPOINT,MAIL_RECIPIENT} from './mail-config.mjs';
+import {MAIL_ENDPOINT,MAIL_RECIPIENT} from './mail-config.mjs?v=mail2';
 export {MAIL_RECIPIENT};
 export function configured(){return /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(MAIL_ENDPOINT)}
 export function mailRecord(r){

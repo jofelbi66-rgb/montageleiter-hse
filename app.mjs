@@ -1,4 +1,4 @@
-import {configured,MAIL_RECIPIENT,fingerprint,readyError,sendReport} from './mail.mjs';
+import {configured,MAIL_RECIPIENT,fingerprint,readyError,sendReport} from './mail.mjs?v=mail2';
 import {STORE,CHECKS,LMRA,id,today,blank,empty,status,overdue,invalidate,validate,demo} from './model.mjs';
 const root=document.querySelector('#app');let db,blocked=false,dirty=false,current=null,noticeTimer;
 try{db=validate(JSON.parse(localStorage.getItem(STORE)||JSON.stringify(empty())))}catch{db=empty();blocked=true}
